@@ -188,12 +188,35 @@ section{
   width: 33.3333%;
   height: 400px;
 }
+.projectSingle img{
+  border-radius: 14%;
+}
 
 .resume img{
   display: block;
   margin: 0 auto;
   width: 100%;
 }
+.resume img{
+
+}
+.resume a{
+  border: 1px solid black;
+  background-color: #E3C0D3;
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  width: 20%;
+  display: block;
+  margin: 3% auto;
+  text-align: center;
+  padding: 1%;
+  border-radius: 15px;
+}
+.resume a:hover{
+  text-decoration: none;
+}
+
 .secondBackground {
   background-color: #E0D3DE;
 }
