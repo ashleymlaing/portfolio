@@ -7,8 +7,10 @@
   <title>Ashley's Portfolio</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand|Open+Sans+Condensed:300|Oswald|Raleway" rel="stylesheet">
 </head>
 <body>
 
@@ -18,24 +20,25 @@
     <h1>Ashley Laing</h1>
   </header>
   <nav class="col-sm-12">
-    <a href="#" class="col-sm-3">about me</a>
-    <a href="#" class="col-sm-3">portfolio</a>
-    <a href="#" class="col-sm-3">resume</a>
-    <a href="#" class="col-sm-3">contact me</a>
+    <a href="#aboutMe" class="col-sm-3">about me</a>
+    <a href="#portfolio" class="col-sm-3">portfolio</a>
+    <a href="#resume" class="col-sm-3">resume</a>
+    <a href="#contact" class="col-sm-3">contact me</a>
   </nav>
   <section class="col-sm-12 videoSpace secondBackground ">
     <iframe class="col-sm-12" src="https://www.youtube.com/embed/eKw-d2VYNNI?rel=0" frameborder="0" allowfullscreen></iframe>
   </section>
-  <div class="wrapper">
-    <section class="aboutMe_skills clearfix">
-      <div class="aboutMe col-sm-6">
+
+  <section class="aboutMe_skills clearfix">
+    <div class="wrapper">
+      <div id="aboutMe" class="aboutMe col-sm-6">
         <h2>About Me</h2>
         <p>I'm a front-end developer who with a passion for JavaScript. I'm exploring my passion for building experiences by learning more programming languages like Java, Swift, C#, and C++. Constant learning is the main driver for my personal goals. I have struggled with balancing school, work, and interning at companies like Microsoft, but through it all, I have found myself. The companies that I have worked with have fueled my passion for coding and have strengthened my confidence that software development is the right path for me. I am excited for the future and the opportunities that lie ahead.</p>
 
         <p>I want to work at a company that is innovative, collaborative, and will support my passion for exploring new ideas and learning.</p>
       </div>
       <div class="skills">
-        <div class="col-sm-6 our-skills wow fadeInDown animated " data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
+        <div class="col-sm-6 our-skills wow fadeInDown animated movingDown" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
           <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
             <p class="lead">Semantically Structure HTML</p>
             <div class="progress">
@@ -45,83 +48,91 @@
           <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="400ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInDown;">
             <p class="lead">CSS</p>
             <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="85" style="width: 85%;">85%</div>
+              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="90" style="width: 90%;">90%</div>
             </div>
           </div>
           <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInDown;">
             <p class="lead">Javascript</p>
             <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="70" style="width: 70%;">70%</div>
+              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="80" style="width: 80%;">80%</div>
             </div>
           </div>
           <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInDown;">
             <p class="lead">Mobile Applications</p>
             <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="40" style="width: 40%;">40%</div>
+              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="55" style="width: 55%;">55%</div>
             </div>
           </div>
           <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
-            <p class="lead">Fun</p>
+            <p class="lead">C++</p>
             <div class="progress">
-              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="85" style="width: 85%;">85%</div>
+              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="45" style="width: 45%;">45%</div>
+            </div>
+          </div>
+          <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+            <p class="lead">C#</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="45" style="width: 45%;">45%</div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    </section>
-    <section  class="portfolio_of_work secondBackground">
-      <div class="wrapper">
-        <div class="row">
-          <div class="projectSingle col-md-3 col-lg-4">
-            <iframe src="http://roslindale.net/"></iframe>
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div>
-          <div class="projectSingle col-md-3 col-lg-4">
-            <img src="img/Quilt.png" alt="">
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div>
-          <div class="projectSingle col-md-3 col-lg-4">
-            <iframe src="http://www.carolyn-whelan.com/"></iframe>
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div><div class="projectSingle col-md-3 col-lg-4">
-            <iframe src="http://headsortails.bitballoon.com/"></iframe>
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div>
-          <div class="projectSingle col-md-3 col-lg-4">
-            <img src="https://pixy.org/images/placeholder.png" alt="">
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div>
-          <div class="projectSingle col-md-3 col-lg-4">
-            <img src="https://pixy.org/images/placeholder.png" alt="">
-            <h3>Project Name</h3>
-            <p>Description</p>
-          </div>
+  </section>
+  <section id="portfolio"  class="portfolio_of_work secondBackground">
+    <div class="wrapper">
+      <div class="row">
+        <div class="projectSingle col-md-3 col-lg-4">
+          <a href="http://roslindale.net/" target="_blank"><iframe src="http://roslindale.net/"></iframe></a>
+          <h3>Roslindale Village Main Street</h3>
+          <p>This was a client site that I did using HTML, CSS, and JavaScript. The site has been translated into a wordpress site. Working on this site gave me skills on buildig better code and practiced Javacript and Media Queries.</p>
+        </div>
+        <div class="projectSingle col-md-3 col-lg-4">
+          <a href="https://getquilt.com/" target="_blank"><img src="img/Quilt.png" alt=""></a>
+          <h3>Quilt</h3>
+          <p>Description</p>
+        </div>
+        <div class="projectSingle col-md-3 col-lg-4">
+          <iframe src="http://www.carolyn-whelan.com/"></iframe>
+          <h3>Carolyn Whelan</h3>
+          <p>Description</p>
+        </div><div class="projectSingle col-md-3 col-lg-4">
+          <img src="img/heads.png" alt="">
+          <h3>Heads &amp; Tails</h3>
+          <p>Description</p>
+        </div>
+        <div class="projectSingle col-md-3 col-lg-4">
+          <img src="img/clubAdmission.png" alt="">
+          <h3>Club Addmission Application</h3>
+          <p>Description</p>
+        </div>
+        <div class="projectSingle col-md-3 col-lg-4">
+          <img src="img/onlineMusicStore.png" alt="">
+          <h3>Online Music Store Application</h3>
+          <p>Description</p>
         </div>
       </div>
-    </section>
-    <div class="wrapper">
-    <section class="resume ">
+    </div>
+  </section>
+  <div class="wrapper">
+    <section id="resume" class="resume ">
       <img src="img/Resume.png" alt="">
       <a href="resume/Resume.pdf" target="_blank">Get The PDF</a>
     </section>
   </div>
-    <section class="contactForm secondBackground clearfix">
-        <div class="wrapper">
-          <form class="col-md-6" action="index.html" method="post">
-            <input class="col-sm-12" type="email" name="" value="" placeholder="Your Email">
-            <input class="col-sm-12" type="text" name="" value="" placeholder="subject">
-            <textarea class="col-sm-12" name="message" rows="8"></textarea>
-            <button class="col-sm-4 col-sm-offset-4" type="submit" name="button">Send</button>
-          </form>
-        </div>
-    </section>
+  <section id="contact" class="contactForm secondBackground clearfix">
+    <div class="wrapper">
+      <h2 class="col-sm-12">Contact Me</h2>
+      <form class="col-md-6" action="index.html" method="post">
+        <input class="col-sm-8 formElement" type="email" name="" value="" placeholder="Your Email">
+        <input class="col-sm-8 formElement" type="text" name="" value="" placeholder="subject">
+        <textarea class="col-sm-12 formElement" name="message" rows="8" placeholder="Type Message Here"></textarea>
+        <button class="col-sm-4 col-sm-offset-4 formElement" type="submit" name="button">Send</button>
+      </form>
+      <img src="img/ashley02head.jpeg" class="col-md-offset-1 col-md-3" alt="">
+    </div>
+  </section>
 
 
   <footer class="col-sm-12 push-down">
